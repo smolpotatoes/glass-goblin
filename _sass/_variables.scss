@@ -2,6 +2,7 @@
 $brand-black: #020000; // Diesel
 $brand-blue: #0B60B9; // Denim
 $brand-green: #39BE37; // Apple
+$brand-green-light: #7ED97C; // Lighter shade of Apple
 $brand-grey-light: #BCBCBC; // Silver
 $brand-grey-medium: #89898A; // Jumbo
 $brand-grey-dark: #333333; // Mine Shaft
@@ -10,19 +11,19 @@ $brand-purple: #CF28EE; // Electric Violet
 $brand-red: #BC1F2B; // Cardinal
 $brand-yellow: #FDF85C; // Candy Corn
 $brand-yellow-bee: #FFC65C; // Golden Tainoi
-$brand-primary: $brand-yellow-bee;
-$brand-secondary: $brand-orange;
+$brand-primary: $brand-green;
+$brand-secondary: $brand-yellow-bee;
 $brand-tertiary: $brand-grey-dark;
 
 // Headers
-$header-heading-color: $brand-black;
-$header-bg-color: $brand-yellow-bee;
-$header-bg-color-secondary: $brand-yellow;
+$header-heading-color: $brand-yellow-bee;
+$header-bg-color: $brand-green;
+$header-bg-color-secondary: $brand-green-light;
 
 // Text
-$section-headings-color: $brand-orange;
+$section-headings-color: $brand-green-light;
 $body-text-color: $brand-grey-medium;
-$body-link-color: $brand-blue;
+$body-link-color: $brand-green;
 $blockquote-text-color: $brand-grey-medium;
 
 // Borders
