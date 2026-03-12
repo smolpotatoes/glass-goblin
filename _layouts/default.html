@@ -19,6 +19,18 @@
     </a>
     <nav>
       {% for item in site.data.navigation %}
+        {% if item.group != null %}
+        <ul>
+          {{ item.group }}
+          {% for subitem in item.group.items %}
+          <li>
+            <a href="{{ site.url }}/{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+              {{ item.name }}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
         <a href="{{ site.url }}/{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
           {{ item.name }}
         </a>
