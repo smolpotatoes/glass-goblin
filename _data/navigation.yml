@@ -1,5 +1,11 @@
 - name: Home
-  link: 
+  link:
+- group: Shop at Glass Goblin
+  items:
+    - name: Glass Goblin Headquaters
+      link: gghq
+    - name: Gloucester Antiques Centre
+      link: gloucester-antiques
 - name: Example
   link: example
 - name: About
