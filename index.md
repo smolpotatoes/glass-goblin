@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Stroud ADHD Collective
+title: Glass Goblin
 ---
 # Peer Support Groups
 We operate peer-facilitated support groups on Wednesday nights and Saturday mornings.
